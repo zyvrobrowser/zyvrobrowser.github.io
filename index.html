@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zyvro is a fast, privacy-first desktop browser with built-in protection, workspaces, sidebar tabs, and no account required.">
+  <meta name="theme-color" content="#10142a">
+  <title>Zyvro Browser — Browse on your terms</title>
+  <link rel="icon" href="assets/zyvro-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora aurora-one"></div>
+  <div class="aurora aurora-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Zyvro home">
+      <img src="assets/zyvro-logo.png" alt="">
+      <span>Zyvro</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#download">Download</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="header-cta platform-download" href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/download/Models/ZyvroSetup.exe">Get Zyvro</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Built for the web you actually use</div>
+        <h1>Your browser.<br><em>Your rules.</em></h1>
+        <p>Zyvro is a fast, privacy-first desktop browser with powerful protection, clean workspaces, and zero account pressure.</p>
+        <div class="hero-actions">
+          <a class="button primary platform-download" href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/download/Models/ZyvroSetup.exe"><span class="button-label">Download for Windows</span><span class="button-arrow">↓</span></a>
+          <a class="button secondary" href="https://github.com/SyntaxError-TwT/Zyvro-Browser" target="_blank" rel="noreferrer"><span>View on GitHub</span><span class="button-arrow">↗</span></a>
+        </div>
+        <div class="trust-row">
+          <span>✓ No account required</span>
+          <span>✓ Built-in protection</span>
+          <span>✓ Free and open source</span>
+        </div>
+      </div>
+
+      <div class="browser-stage reveal" aria-label="Zyvro browser interface preview">
+        <div class="browser-window">
+          <div class="tabs-row">
+            <div class="tab active"><img src="assets/zyvro-logo.png" alt=""><span>New Tab</span><b>×</b></div>
+            <div class="tab compact"><span>G</span></div>
+            <button aria-label="New tab">+</button>
+          </div>
+          <div class="nav-row">
+            <span class="sidebar-mark">◫</span><span>‹</span><span>›</span><span>↻</span>
+            <div class="address"><span>◇</span> Search or enter an address</div>
+            <span>◈</span><span>⋮</span>
+          </div>
+          <div class="browser-body">
+            <aside class="browser-sidebar">
+              <small>QUICK ACCESS</small>
+              <div class="quick-grid">
+                <i class="google">G</i><i class="youtube">▶</i><i class="gmail">M</i>
+                <i class="github">⌘</i><i class="chatgpt">◎</i><i class="reddit">R</i>
+              </div>
+              <strong>★ &nbsp;Bookmarks</strong>
+              <div class="side-rule"></div>
+              <small>TABS</small>
+              <div class="side-tab"><img src="assets/zyvro-logo.png" alt=""> Welcome to Zyvro</div>
+              <div class="privacy-pill">🛡 &nbsp;Privacy Protection: On</div>
+              <div class="new-tab">＋ &nbsp;New Tab</div>
+            </aside>
+            <div class="new-page">
+              <img src="assets/zyvro-logo.png" alt="Zyvro logo">
+              <h2>Browse beyond ordinary.</h2>
+              <div class="search-box">⌕ &nbsp; Search the web privately</div>
+              <div class="stat-row"><span><b>0</b> trackers</span><span><b>0</b> ads</span><span><b>100%</b> yours</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="stage-glow"></div>
+      </div>
+    </section>
+
+    <section class="statement section-shell reveal">
+      <p class="section-kicker">A BETTER DEFAULT</p>
+      <h2>Everything you need.<br><span>Nothing you don't.</span></h2>
+    </section>
+
+    <section class="features section-shell" id="features">
+      <article class="feature-card wide reveal">
+        <div>
+          <span class="feature-icon violet">✦</span>
+          <p class="card-label">YOUR SPACE</p>
+          <h3>Organize the chaos.</h3>
+          <p>Keep tabs focused with a flexible sidebar, compact pinned sites, bookmarks, and separate workspaces.</p>
+        </div>
+        <div class="mini-sidebar">
+          <div class="mini-dots"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="mini-line active"></div><div class="mini-line"></div><div class="mini-line short"></div>
+        </div>
+      </article>
+
+      <article class="feature-card reveal">
+        <span class="feature-icon cyan">◈</span>
+        <p class="card-label">BUILT-IN PRIVACY</p>
+        <h3>Protection you can see.</h3>
+        <p>Block ads and trackers, control cookies, reduce WebRTC leaks, and review a local privacy timeline.</p>
+        <div class="protection-meter"><span></span><b>Protection active</b></div>
+      </article>
+
+      <article class="feature-card reveal">
+        <span class="feature-icon coral">↯</span>
+        <p class="card-label">QUICK BY DESIGN</p>
+        <h3>Less waiting. More browsing.</h3>
+        <p>Sleeping tabs and a native desktop interface keep everyday browsing responsive.</p>
+        <div class="speed-lines"><i></i><i></i><i></i></div>
+      </article>
+
+      <article class="feature-card wide reverse reveal">
+        <div class="feature-copy">
+          <span class="feature-icon gold">◌</span>
+          <p class="card-label">MAKE IT YOURS</p>
+          <h3>Your browser should feel like yours.</h3>
+          <p>Choose a theme, tune your search and privacy settings, create workspaces, and install sites as standalone apps.</p>
+        </div>
+        <div class="themes" aria-label="Theme color choices">
+          <i class="theme-dark"></i><i class="theme-neon"></i><i class="theme-light"></i><i class="theme-rainbow"></i>
+        </div>
+      </article>
+    </section>
+
+    <section class="privacy section-shell reveal" id="privacy">
+      <div class="privacy-copy">
+        <p class="section-kicker">PRIVACY WITHOUT THE PUZZLE</p>
+        <h2>Clear controls.<br><span>Real protection.</span></h2>
+        <p>Zyvro puts privacy tools in the browser—not behind an account, subscription, or confusing dashboard.</p>
+      </div>
+      <div class="privacy-list">
+        <div><span>01</span><p><b>Rust-powered blocking</b>Stops common ads and trackers before they clutter the page.</p></div>
+        <div><span>02</span><p><b>Private browsing</b>Keeps private sessions separate from your regular browsing data.</p></div>
+        <div><span>03</span><p><b>Local-first controls</b>Your settings, reports, and browsing tools stay on your device.</p></div>
+      </div>
+    </section>
+
+    <section class="download section-shell reveal" id="download">
+      <div>
+        <p class="section-kicker">ZYVRO V1.0.0 STABLE</p>
+        <h2>Download Zyvro.</h2>
+        <p>Get the current stable release for Windows or macOS. Version 2.0 remains a separate local alpha while it is being developed.</p>
+      </div>
+      <div class="download-card">
+        <div class="detected-platform"><small>RECOMMENDED FOR THIS DEVICE</small><strong class="detected-label">Windows 64-bit</strong></div>
+        <a class="download-main platform-download" href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/download/Models/ZyvroSetup.exe"><span class="download-main-label">Download Windows installer</span><span>↓</span></a>
+        <div class="download-alternatives">
+          <a href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/download/Models/Zyvro-1.0.0-Windows-x64-portable.zip"><span>⊞</span><div><b>Windows portable</b><small>64-bit ZIP · 242 MB</small></div><i>↓</i></a>
+          <a href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/download/Models/Zyvro-1.0.0-macOS-arm64.dmg"><span>◆</span><div><b>macOS</b><small>Apple silicon DMG · 192 MB</small></div><i>↓</i></a>
+        </div>
+        <a class="release-notes" href="https://github.com/SyntaxError-TwT/Zyvro-Browser/releases/tag/Models" target="_blank" rel="noreferrer">View v1.0.0 release notes <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="faq section-shell" id="faq">
+      <p class="section-kicker reveal">QUESTIONS, ANSWERED</p>
+      <h2 class="reveal">The quick version.</h2>
+      <div class="faq-list reveal">
+        <details><summary>Is Zyvro free?<span>+</span></summary><p>Yes. Zyvro is designed to be free and open source.</p></details>
+        <details><summary>Do I need an account?<span>+</span></summary><p>No. Workspaces and browser data work locally without requiring sign-in.</p></details>
+        <details><summary>What platforms are supported?<span>+</span></summary><p>Windows is the primary local build today. macOS packaging is planned separately.</p></details>
+        <details><summary>Is version 2 ready for daily use?<span>+</span></summary><p>Not yet. Version 2 is an alpha preview while its interface and features are tested.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img src="assets/zyvro-logo.png" alt=""><span>Zyvro</span></div>
+    <p>Browse on your terms.</p>
+    <div><a href="https://github.com/SyntaxError-TwT/Zyvro-Browser" target="_blank" rel="noreferrer">GitHub</a><a href="#privacy">Privacy</a><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
